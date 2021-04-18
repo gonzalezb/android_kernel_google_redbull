@@ -11,6 +11,8 @@ obj-y				+= bus/
 
 obj-$(CONFIG_GENERIC_PHY)	+= phy/
 
+obj-$(CONFIG_ANBOX) += anbox/
+
 obj-$(CONFIG_VSERVICES_SUPPORT)	+= vservices/
 
 # GPIO must come after pinctrl as gpios may need to mux pins etc
